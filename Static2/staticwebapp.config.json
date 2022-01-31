@@ -1,0 +1,15 @@
+{
+   "networking":{
+      "allowedIpRanges":[
+         "AzureFrontDoor.Backend"
+      ]
+   },
+   "forwardingGateway":{
+      "requiredHeaders":{
+         "X-Azure-FDID":"6f9579a6-cd2c-4c98-9f4e-925a66026ff9"
+      },
+      "allowedForwardedHosts":[
+         "tafrontdoor.z01.azurefd.net"
+      ]
+   }
+}
